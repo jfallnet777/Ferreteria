@@ -1,5 +1,5 @@
 // Service worker: guarda la app en el teléfono para abrirla rápido y sin conexión.
-const V = 'limoncito-v8';
+const V = 'limoncito-v12';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'favicon.png', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png',
   'lib/jspdf.umd.min.js', 'lib/xlsx.full.min.js', 'lib/pdf.min.js', 'lib/pdf.worker.min.js'];
 self.addEventListener('install', e => {
