@@ -1,0 +1,18 @@
+{
+  "name": "ferreteria-el-limoncito",
+  "version": "1.0.0",
+  "description": "Ferretería El Limoncito: app web estática (PWA) publicada en Firebase Hosting",
+  "private": true,
+  "scripts": {
+    "login": "firebase login",
+    "start": "firebase emulators:start --only hosting",
+    "preview": "firebase hosting:channel:deploy prueba --expires 7d",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "devDependencies": {
+    "firebase-tools": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
